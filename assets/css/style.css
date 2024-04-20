@@ -1,8 +1,116 @@
+header nav {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+header nav img {
+  width: 160px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+header nav ul li a {
+  margin: 20px;
+  color: black;
+}
+header div {
+  justify-content: space-between;
+  align-items: center;
+}
+header div div {
+  width: 454px;
+}
+header div div h1 {
+  margin: 10px 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+header div div p {
+  margin: 10px 0 45px;
+  font-size: 21px;
+  font-weight: 500;
+}
+header div div button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  background: #458FF6;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main article:nth-child(1) {
+  width: 1150px;
+}
+main article:nth-child(1) section:nth-child(1) {
+  width: 956px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+main article:nth-child(1) section:nth-child(1) h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+main article:nth-child(1) section:nth-child(1) img {
+  width: 90px;
+  margin: 30px 0;
+}
+main article:nth-child(1) section:nth-child(1) p {
+  font-size: 18px;
+  font-weight: 500;
+}
+main article:nth-child(1) section:nth-child(2) div img {
+  width: 95px;
+  margin: 45px 40px 0;
+}
+main article:nth-child(1) section:nth-child(2) div h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 25px 0 0 40px;
+}
+main article:nth-child(1) section:nth-child(2) div p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 10px 0 40px;
+}
+
 * {
   font-family: "Mulish", sans-serif;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../images/bg\ element.png);
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 350px;
+  height: 355px;
+  margin: 35px 35px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.02);
 }
 
 /*# sourceMappingURL=style.css.map */

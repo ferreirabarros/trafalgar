@@ -1,10 +1,39 @@
 @import "./header.scss";
+@import "./main.scss";
 
 *{
   font-family: "Mulish", sans-serif;
-  margin: 0;
+  margin: 0 auto;
   padding: 0; 
-  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background-image: url(../images/bg\ element.png);
+  background-repeat: no-repeat;
+
+}
+
+.container{
+  width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
 }
 
 
+.box{
+  width: 350px;
+  height: 355px;
+  margin:35px 35px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow:0px 30px 40px rgb(0 0 0 / 2%);
+}
