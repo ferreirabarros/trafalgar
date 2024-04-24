@@ -3,24 +3,27 @@
 
 *{
   font-family: "Mulish", sans-serif;
-  margin: 0 auto;
+  margin: 0;
   padding: 0; 
   list-style: none;
   text-decoration: none;
 }
 
-body{
-  background-image: url(../images/bg\ element.png);
-  background-repeat: no-repeat;
-
+.img{
+  background-image: url(../images/bg\ element.png), url(../images/element\ \(2\).png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 900px, 130px;
+  background-position-x: 70px, 1560px;
+  background-position-y: 1000px, 1000px;
+  
 }
+
 
 .container{
   width: 1200px;
   margin: 50px auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .row{
@@ -32,8 +35,8 @@ body{
 .box{
   width: 350px;
   height: 355px;
-  margin:35px 35px;
+  margin:0 35px 35px 0;
   border-radius: 20px;
   background-color: white;
-  box-shadow:0px 30px 40px rgb(0 0 0 / 2%);
+  box-shadow:30px 30px 20px rgb(192 192 192 / 10%);
 }

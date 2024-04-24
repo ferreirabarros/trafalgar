@@ -3,7 +3,7 @@ header{
     justify-content:space-between ;
     align-items: center; 
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 200;
     
     img{
       width: 160px;
@@ -15,14 +15,15 @@ header{
       li{
         a{
           margin: 20px;
-          color: black;
+          color: #1F1534;
         }
       }
     }
   }
   div{ 
+    margin: 85px 0;
     justify-content: space-between;
-    align-items: center;  
+ 
     div{
       width: 454px;
       h1{
@@ -33,7 +34,8 @@ header{
       p{
         margin: 10px 0 45px;
         font-size: 21px;
-        font-weight: 500;      
+        font-weight: 200; 
+        color: #7D7987;     
       }
       button{
         width: 200px;
@@ -45,6 +47,9 @@ header{
         font-size: 18px;
         font-weight: bold;
       }
+    }
+    img{
+      width: 650px;
     }
   }
 

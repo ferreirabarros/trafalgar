@@ -1,12 +1,12 @@
 main{
-  
   article:nth-child(1){
     width: 1150px;
+    margin: 100px auto;
 
     section:nth-child(1){
       width: 956px;
       text-align: center;
-      margin-bottom: 80px;
+      margin: 0 auto 80px;
       h2{
         font-size: 36px;
         font-weight: bold;
@@ -17,7 +17,9 @@ main{
       }
       p{
         font-size: 18px;
-        font-weight: 500;  
+        font-weight: 300;
+        color: #7D7987;
+         
       }
     }
 
@@ -34,11 +36,173 @@ main{
         }
         p{
           font-size: 16px;
-          font-weight: 500;
-          margin: 15px 10px 0 40px;
+          font-weight: 300;
+          width: 258px;
+          margin: 15px 0 0 40px;
+          color: #7D7987;
           
         }
       }
     }
+    button{
+      width: 200px;
+      border-radius: 50px;
+      border-color: #458FF6;
+      padding: 15px;
+      background: none;
+      color: #458FF6;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 69px auto 0;
+      justify-content: center;   
+    }
+  }
+
+
+  article:nth-child(2){
+    margin: 100px 0;
+
+    section:nth-child(1){
+      justify-content: space-between;
+      margin-bottom: 52px;
+      align-items: center;
+      img{
+        width: 650px;
+      }
+      div{
+        width: 410px;
+        h2{
+          font-weight: bold;
+          font-size: 36px;
+        }
+        img{
+          width: 56px;
+          margin: 31px 0;
+        }
+        p{
+          font-weight: 300;
+          font-size: 18px;
+          color: #7D7987;
+
+        }
+        button{
+          width: 200px;
+          margin-top: 37px;
+          border-radius: 50px;
+          border-color: #458FF6;
+          padding: 15px;
+          background: none;
+          color: #458FF6;
+          font-weight: bold;
+          font-size: 18px;
+
+        }
+      }
+
+    }
+    section:nth-child(2){
+      justify-content: space-between;
+      div{
+        width: 381px;
+        h2{
+          font-weight: bold;
+          font-size: 36px;
+          width: 250px;
+        }
+        img{
+          width: 52px;
+          margin: 31px 0;
+        }
+        p{
+          font-weight: 300;
+          font-size: 18px;
+          color: #7D7987;
+
+        }
+        div{
+
+          button{
+            position: relative;
+            width: 200px;
+            margin-top: 40px;
+            padding: 15px;
+            padding-right: 25px;
+            border-radius: 50px;
+            border-color: #458FF6;
+            background: none;
+            color: #458FF6;
+            font-weight: bold;
+            font-size: 18px;
+            img{
+              position:absolute;
+              top: -13px;
+              left: 155px;
+
+             width: 11px;
+
+            }
+          } 
+        }
+      }
+      img{
+        width: 665px;
+      }
+    }
+  }
+
+  article:nth-child(3){
+    background-image: url(../images/Rectangle\ 13.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    margin: 428px 0 42px;
+    text-align: center;
+    color: white;
+    h2{
+      font-weight: bold;
+      font-size: 36px;  
+      margin-top: 64px;
+    }
+    img{
+      width: 56px;
+      margin: 25px 0 40px;  
+    }
+    section{
+      justify-content: space-between;
+      margin: 0 118px 0 118px;
+      align-items: center;
+      margin-bottom:89px ;
+      div{
+        align-items: center;
+        img{
+          width: 141px;
+          margin-right: 29px;
+        }
+        div{
+          width: 184px;
+          text-align: start;
+          h3{
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          p{
+            font-size: 18px;
+            font-weight: 300;
+          }
+        }
+      }
+      p{
+        width: 420px;
+        font-size: 19px;
+        font-weight: 300;    
+      }
+    }
+
+  }
+
+  img{
+    width: 336px;
+    margin: 0 auto;
+    text-align: center;
   }
 }
