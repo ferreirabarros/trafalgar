@@ -1,0 +1,27 @@
+footer{
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 150px 0 0 0;
+  color: white;
+  section{
+    margin: 118px 0 113px 190px;
+    article:nth-child(1){
+      width: 391px;
+      margin-right: 119px ;
+      img{
+        width: 160px;   
+      }
+      p:nth-child(2){
+        font-size: 18px;
+        font-weight: 300;
+        margin: 17px 0 31px 0;
+      }
+      p:nth-child(3){
+        font-size: 18px;
+        font-weight: 300;
+      }
+
+    }
+  }
+}

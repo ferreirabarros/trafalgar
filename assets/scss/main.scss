@@ -24,7 +24,10 @@ main{
     }
 
     section:nth-child(2){
+      margin:0 auto;
+      justify-content: center;
       div{ 
+        margin:0 17px 18px;
         img{
           width: 95px;
           margin: 45px 40px 0;
@@ -51,13 +54,12 @@ main{
       padding: 15px;
       background: none;
       color: #458FF6;
-      font-weight: bold;
+      font-weight: 500;
       font-size: 18px;
-      margin: 69px auto 0;
+      margin: 50px auto 0;
       justify-content: center;   
     }
   }
-
 
   article:nth-child(2){
     margin: 100px 0;
@@ -93,7 +95,7 @@ main{
           padding: 15px;
           background: none;
           color: #458FF6;
-          font-weight: bold;
+          font-weight: 500;
           font-size: 18px;
 
         }
@@ -131,7 +133,7 @@ main{
             border-color: #458FF6;
             background: none;
             color: #458FF6;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 18px;
             img{
               position:absolute;
@@ -204,5 +206,71 @@ main{
     width: 336px;
     margin: 0 auto;
     text-align: center;
+  }
+
+  article:nth-child(5){
+    margin: 216px 0 0;
+    section:nth-child(1){
+      text-align: center;
+      h2{
+        font-weight: bold;
+        font-size: 36px;
+      }
+      img{
+        width: 56px;
+        margin-top: 26px;
+      }
+    }
+    section:nth-child(2){
+      margin:0 auto;
+      justify-content: center;
+      div{
+        margin: 79px 17px;
+        img{
+          width: 350px;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+
+        }
+        div{
+          width: 266px;
+          margin: 0 0 0 32px;
+          h3{
+            font-weight: bold;
+            font-size: 21px;
+            margin: 24px 0 12px;
+          }
+          p{
+            font-weight: 300;
+            font-size: 16px;
+          }
+          button{
+            margin: 24px 0 0;
+            font-weight:500;
+            font-size: 17px;
+            color:#458FF6;
+            border: none;
+            background: none;
+
+            img{
+              width: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  button:nth-child(6){
+    width: 200px;
+    border-radius: 50px;
+    border-color: #458FF6;
+    padding: 15px;
+    background: none;
+    color: #458FF6;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px auto 0;
+    justify-content: center; 
   }
 }

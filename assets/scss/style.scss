@@ -1,5 +1,6 @@
 @import "./header.scss";
 @import "./main.scss";
+@import "./footer.scss";
 
 *{
   font-family: "Mulish", sans-serif;
@@ -21,7 +22,7 @@
 
 .container{
   width: 1200px;
-  margin: 50px auto;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
 }
@@ -35,8 +36,15 @@
 .box{
   width: 350px;
   height: 355px;
-  margin:0 35px 35px 0;
   border-radius: 20px;
   background-color: white;
   box-shadow:30px 30px 20px rgb(192 192 192 / 10%);
+}
+
+.box2{
+  width: 350px;
+  height: 512px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow:30px 30px 20px rgb(192 192 192 / 20%);
 }
