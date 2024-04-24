@@ -1,6 +1,7 @@
 @import "./header.scss";
 @import "./main.scss";
 @import "./footer.scss";
+@import "./backgounds.scss";
 
 *{
   font-family: "Mulish", sans-serif;
@@ -9,16 +10,6 @@
   list-style: none;
   text-decoration: none;
 }
-
-.img{
-  background-image: url(../images/bg\ element.png), url(../images/element\ \(2\).png);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 900px, 130px;
-  background-position-x: 70px, 1560px;
-  background-position-y: 1000px, 1000px;
-  
-}
-
 
 .container{
   width: 1200px;

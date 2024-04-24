@@ -1,14 +1,16 @@
 footer{
+  position: relative;
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 150px 0 0 0;
   color: white;
   section{
-    margin: 118px 0 113px 190px;
+
+    padding: 118px 200px 113px 190px;
+    justify-content: space-around;
     article:nth-child(1){
-      width: 391px;
-      margin-right: 119px ;
+      width: 378px;
       img{
         width: 160px;   
       }
@@ -21,7 +23,31 @@ footer{
         font-size: 18px;
         font-weight: 300;
       }
-
     }
+    
+    article:nth-child(2),:nth-child(3),:nth-child(4){
+      h4{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 35px;
+      }
+      ul{
+        li{
+          margin-bottom: 10px;
+          a{
+            list-style:none;
+            color:white;
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 100px;
+          }
+        }
+      }
+    }
+  }
+  img:nth-child(2){
+    position: absolute;
+    top:320px;
+    left: -20px;
   }
 }

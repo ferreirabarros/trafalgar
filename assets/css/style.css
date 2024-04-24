@@ -302,6 +302,7 @@ main button:nth-child(6) {
 }
 
 footer {
+  position: relative;
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -309,11 +310,11 @@ footer {
   color: white;
 }
 footer section {
-  margin: 118px 0 113px 190px;
+  padding: 118px 200px 113px 190px;
+  justify-content: space-around;
 }
 footer section article:nth-child(1) {
-  width: 391px;
-  margin-right: 119px;
+  width: 378px;
 }
 footer section article:nth-child(1) img {
   width: 160px;
@@ -327,6 +328,33 @@ footer section article:nth-child(1) p:nth-child(3) {
   font-size: 18px;
   font-weight: 300;
 }
+footer section article:nth-child(2) h4, footer section :nth-child(3) h4, footer section :nth-child(4) h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+footer section article:nth-child(2) ul li, footer section :nth-child(3) ul li, footer section :nth-child(4) ul li {
+  margin-bottom: 10px;
+}
+footer section article:nth-child(2) ul li a, footer section :nth-child(3) ul li a, footer section :nth-child(4) ul li a {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+footer img:nth-child(2) {
+  position: absolute;
+  top: 320px;
+  left: -20px;
+}
+
+body {
+  background-image: url("../images/bg element.png"), url("../images/element (2).png"), url("../images/element (2).png"), url("../images/element (2).png"), url("../images/element (2).png"), url("../images/element (2).png"), url("../images/element (1).png"), url("../images/element (2).png");
+  background-repeat: no-repeat;
+  background-position-x: 10px, 1255px, 1470px, 1320px, 150px, 190px, 1050px, 1380px;
+  background-position-y: 950px, 1500px, 2550px, 3750px, 4080px, 4650px, 4530px, 5420px;
+}
 
 * {
   font-family: "Mulish", sans-serif;
@@ -334,14 +362,6 @@ footer section article:nth-child(1) p:nth-child(3) {
   padding: 0;
   list-style: none;
   text-decoration: none;
-}
-
-.img {
-  background-image: url(../images/bg\ element.png), url(../images/element\ \(2\).png);
-  background-repeat: no-repeat, no-repeat;
-  background-size: 900px, 130px;
-  background-position-x: 70px, 1560px;
-  background-position-y: 1000px, 1000px;
 }
 
 .container {
