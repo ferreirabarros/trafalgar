@@ -28,23 +28,24 @@ main{
       justify-content: center;
       div{ 
         margin:0 17px 18px;
-        img{
-          width: 95px;
-          margin: 45px 40px 0;
-        }
-        h3{
-          font-size: 24px;
-          font-weight: bold;
-          margin: 25px 0 0 40px;
-        }
-        p{
-          font-size: 16px;
-          font-weight: 300;
-          width: 258px;
-          margin: 15px 0 0 40px;
-          color: #7D7987;
-          
-        }
+        div{
+          img{
+            width: 95px;
+            margin: 45px 40px 0;
+          }
+          h3{
+            font-size: 24px;
+            font-weight: bold;
+            margin: 25px 0 0 40px;
+          }
+          p{
+            font-size: 16px;
+            font-weight: 300;
+            width: 258px;
+            margin: 15px 0 0 40px;
+            color: #7D7987;
+          }
+        }  
       }
     }
     button{
