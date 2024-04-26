@@ -48,7 +48,6 @@
   body{
     header.container{
       width: 900px;
-  
     }
     main{
       article:nth-child(2){
@@ -98,18 +97,30 @@
     article:nth-child(1){
       section:nth-child(2){
         div:nth-child(1),:nth-child(2){
+          margin:0 17px 18px;
           div.box{
             margin: 0 auto;
             width: 300px;
             height: 305px;
+            text-align: center;
+            h3,p{
+              margin: 15px auto;
+            }
             img{
-              width: 45px;
+              width: 55px;
             }
           }
         }
       }
     }
   }
+}
+@media (max-width:1000px) {
+  header.container{
+    margin: auto 150px;
+
+  }
+  
 }
 
 @media (max-width: 900px) {
@@ -123,16 +134,21 @@
           flex-wrap: wrap;
           
           div.box{
-            width: 450px;
-            height: 455px;
+            width: 900px;
+            height: 400px;
             margin:0 auto 18px;
             text-align: center;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+              display: block;
+              width: 195px;
+            }
             h3,p{
               margin: 15px auto;
             }
-            img{
-              width: 195px;
-            }
+            
           }
         }
       }

@@ -302,6 +302,7 @@ main button:nth-child(6) {
 }
 
 footer {
+  width: 100%;
   position: relative;
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
@@ -432,13 +433,25 @@ body {
   }
 }
 @media (max-width: 1100px) {
+  main article:nth-child(1) section:nth-child(2) div:nth-child(1), main article:nth-child(1) section:nth-child(2) :nth-child(2) {
+    margin: 0 17px 18px;
+  }
   main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box {
     margin: 0 auto;
     width: 300px;
     height: 305px;
+    text-align: center;
+  }
+  main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box h3, main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box p, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box h3, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box p {
+    margin: 15px auto;
   }
   main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box img, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box img {
-    width: 45px;
+    width: 55px;
+  }
+}
+@media (max-width: 1000px) {
+  header.container {
+    margin: auto 150px;
   }
 }
 @media (max-width: 900px) {
@@ -451,16 +464,20 @@ body {
     flex-wrap: wrap;
   }
   main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box {
-    width: 450px;
-    height: 455px;
+    width: 900px;
+    height: 400px;
     margin: 0 auto 18px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box img, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box img {
+    display: block;
+    width: 195px;
   }
   main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box h3, main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box p, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box h3, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box p {
     margin: 15px auto;
-  }
-  main article:nth-child(1) section:nth-child(2) div:nth-child(1) div.box img, main article:nth-child(1) section:nth-child(2) :nth-child(2) div.box img {
-    width: 195px;
   }
 }
 * {
@@ -473,7 +490,7 @@ body {
 
 .container {
   width: 1200px;
-  margin: 0px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
