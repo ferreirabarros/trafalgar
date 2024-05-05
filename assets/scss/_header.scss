@@ -1,0 +1,66 @@
+@use "./medias.scss";
+
+header{
+ .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0;
+    .header-nav-img{
+      width: 100%;
+      max-width: 16rem;
+    }
+    .header-nav-list{
+      display: flex;
+      gap: 1rem;
+      li a{
+        color: $color-text-nav;
+        font-size: $font-size-content;
+        font-weight: 100;
+        padding: 0 1rem;   
+      }
+      .header-nav-list-home{
+        font-weight: bold;
+        -webkit-text-stroke: 1px #000000;
+        text-shadow: 0px 3px 4px #707070;
+      }
+    }
+  }
+  
+  .header-content{
+    display: flex;
+    justify-content: space-between;
+    .header-content-text{
+      width: 100%;
+      max-width: 44.5rem;
+      margin: 10.5rem 0;
+      h1{
+        font-size: $font-size-header-titles;
+        font-weight: 700;
+        color: $color-text-titles;
+      }
+      p{
+        font-size: $font-size-header-text;
+        font-weight: 100;
+        padding: 2.5rem 0;
+        color: $color-text-1;
+      }
+      .header-content-button{
+        margin-top: 2rem;
+        padding: 2rem 4rem;
+        border: none;
+        border-radius: 5rem;
+        background: $primary-color;
+        font-size: $font-size-content;
+        font-weight: 700;
+        color:$color-text-2;
+
+      }
+    }
+    .header-content-img{
+      width: 100%;
+      max-width: 69.3rem;
+    }
+  }
+
+}
