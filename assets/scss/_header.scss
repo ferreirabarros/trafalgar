@@ -1,4 +1,4 @@
-@use "./medias.scss";
+@import "./medias.scss";
 
 header{
  .header-nav{
@@ -6,11 +6,17 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 5rem 0;
+    @include small{
+      justify-content: center;
+    }
     .header-nav-img{
       width: 100%;
       max-width: 16rem;
     }
     .header-nav-list{
+      @include small{
+        display: none;
+      }
       display: flex;
       gap: 1rem;
       li a{
@@ -30,10 +36,17 @@ header{
   .header-content{
     display: flex;
     justify-content: space-between;
+    @include small{
+      flex-direction: column;
+      justify-content: center;
+    }
     .header-content-text{
       width: 100%;
       max-width: 44.5rem;
       margin: 10.5rem 0;
+      @include small{
+        text-align: center;
+      }
       h1{
         font-size: $font-size-header-titles;
         font-weight: 700;
