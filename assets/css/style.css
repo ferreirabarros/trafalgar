@@ -116,6 +116,7 @@ header .header-content .header-content-text {
   header .header-content .header-content-text {
     text-align: center;
     margin: 0 auto 4rem;
+    max-width: 60rem;
   }
 }
 header .header-content .header-content-text h1 {
@@ -201,6 +202,16 @@ main .main-services .main-services-text p {
   padding: 3.3rem 8.5rem;
 }
 @media (max-width: 480px) {
+  main .main-services .main-services-text p {
+    padding: 3.3rem 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  main .main-services .main-services-text p {
+    padding: 3.3rem 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 1279px) {
   main .main-services .main-services-text p {
     padding: 3.3rem 0;
   }
@@ -307,6 +318,7 @@ main .main-content .main-content-items-1 .main-content-items-text-1 {
 @media (min-width: 769px) and (max-width: 1279px) {
   main .main-content .main-content-items-1 .main-content-items-text-1 {
     margin: 0 auto;
+    max-width: 60rem;
   }
 }
 main .main-content .main-content-items-1 .main-content-items-text-1 h2 {
@@ -334,6 +346,7 @@ main .main-content .main-content-items-1 .main-content-items-text-1 p {
 @media (min-width: 769px) and (max-width: 1279px) {
   main .main-content .main-content-items-1 .main-content-items-text-1 p {
     margin: 0 auto;
+    max-width: 60rem;
   }
 }
 main .main-content .main-content-items-2 {
@@ -395,6 +408,7 @@ main .main-content .main-content-items-2 .main-content-items-text-2 {
 @media (min-width: 769px) and (max-width: 1279px) {
   main .main-content .main-content-items-2 .main-content-items-text-2 {
     margin: 0 auto;
+    max-width: 60rem;
   }
 }
 main .main-content .main-content-items-2 .main-content-items-text-2 h2 {
@@ -422,6 +436,7 @@ main .main-content .main-content-items-2 .main-content-items-text-2 p {
 @media (min-width: 769px) and (max-width: 1279px) {
   main .main-content .main-content-items-2 .main-content-items-text-2 p {
     margin: 0 auto;
+    max-width: 60rem;
   }
 }
 main .main-customer {
@@ -514,6 +529,11 @@ main .main-customer .main-customer-content p {
   font-size: 1.8rem;
   font-weight: 100;
   color: #FFFFFF;
+}
+@media (min-width: 769px) and (max-width: 1279px) {
+  main .main-customer .main-customer-content p {
+    max-width: 60rem;
+  }
 }
 main .main-customer-imgSlides {
   width: 100%;

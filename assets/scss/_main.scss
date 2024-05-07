@@ -43,6 +43,13 @@ main{
         @include small{
           padding:3.3rem 0;
         }
+      
+        @include medium {
+          padding:3.3rem 0;
+        }
+        @include large {
+          padding:3.3rem 0;
+        }
       }
     }
     .main-services-cards{
@@ -126,6 +133,7 @@ main{
         }
         @include large{
           margin: 0 auto;
+          max-width: 60rem;
         }
         h2{
           font-size: $font-size-titles;
@@ -146,6 +154,7 @@ main{
           }
           @include large{
             margin: 0 auto;
+            max-width: 60rem;
           }
         }
       }
@@ -192,6 +201,7 @@ main{
         }
         @include large{
           margin: 0 auto;
+          max-width: 60rem;
         }
         h2{
           font-size: $font-size-titles;
@@ -212,6 +222,7 @@ main{
           }
           @include large{
             margin: 0 auto;
+            max-width: 60rem;
           }
         }
       }
@@ -300,6 +311,9 @@ main{
         font-size: $font-size-content;
         font-weight: 100;
         color: $color-text-2;
+        @include large{
+          max-width: 60rem;
+        }
       }
 
     }

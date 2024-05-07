@@ -75,6 +75,7 @@ header{
       @include large{
         text-align: center;
         margin:0 auto 4rem;
+        max-width: 60rem;
       }
       h1{
         font-size: $font-size-header-titles;
