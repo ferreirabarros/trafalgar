@@ -1,0 +1,394 @@
+@use "./medias.scss";
+
+main{
+  margin: 20rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .main-imgBar{
+    width: 100%;
+    max-width: 5.6rem;
+    padding-top: 2.6rem ;
+  }
+
+  .main-button{
+    width: 100%;
+    max-width: 20rem;
+    margin: 3rem auto;
+    border-radius: 5rem;
+    border-color: $primary-color;
+    padding: 1.5rem;
+    background: none;
+    color: $primary-color;
+    font-weight: 500;
+    font-size: $font-size-content;
+  }
+
+
+  .main-services{
+    display: flex;
+    flex-direction: column;
+    .main-services-text{
+      text-align: center;
+      h2{
+        font-size: $font-size-titles;
+        font-weight: 700;
+        color: $color-text-titles;
+      }
+      p{
+        font-size: $font-size-content;
+        font-weight: 100;
+        color: $color-text-1;
+        padding: 3.3rem 8.5rem;
+        @include small{
+          padding:3.3rem 0;
+        }
+      
+        @include medium {
+          padding:3.3rem 0;
+        }
+        @include large {
+          padding:3.3rem 0;
+        }
+      }
+    }
+    .main-services-cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 3rem 0;  
+      .main-services-cards-item{
+        margin: 2rem auto;
+        padding: 4rem;
+        background-color: white;
+        max-width: 35rem;
+        height: 35.5rem;
+        border-radius: 2rem;
+        box-shadow:30px 30px 50px rgb(192 192 192 / 10%);
+        @include small{
+          text-align: center;
+        }
+        
+        img{
+          max-width: 100%;
+        }
+        h3{
+          font-size: $font-size-titles-content;
+          font-weight: 700;
+          color: $color-text-titles;
+          padding: 1.9rem 0;
+        }
+        p{
+          font-size: $font-size-content-content;
+          font-weight: 100;
+          color: $color-text-1;
+        }
+      }
+    }
+  }
+
+  .main-content{
+    margin: 20rem auto 42.8rem;
+    .main-content-items-1{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5.2rem;
+      @include small{
+        flex-direction: column;
+        text-align: center;
+      }
+      @include medium{
+        flex-direction: column;
+        text-align: center;   
+      }
+      @include large{
+        flex-direction: column;
+        text-align: center;   
+      }
+      @include x-large{
+        gap: 6rem;  
+      }
+      .main-content-items-img-1{
+        width: 100%;
+        max-width: 65rem;
+        @include small{
+          margin: 0 auto;
+        }
+        @include medium{
+          margin: 0 auto;
+        }
+        @include large{
+          margin: 0 auto;
+        }
+      } 
+      .main-content-items-text-1{
+        width: 100%;
+        max-width: 48.6rem;
+        margin-top: 6rem;
+        @include small{
+          margin: 0 auto;
+        }
+        @include medium{
+          margin: 0 auto;
+        }
+        @include large{
+          margin: 0 auto;
+          max-width: 60rem;
+        }
+        h2{
+          font-size: $font-size-titles;
+          font-weight: 700;
+          color: $color-text-titles;
+        }
+        p{
+          font-size: $font-size-content;
+          font-weight: 100;
+          color: $color-text-1;
+          padding: 3.1rem 0 0;
+          max-width: 38.8rem;
+          @include small{
+            margin: 0 auto;
+          }
+          @include medium{
+            margin: 0 auto;
+          }
+          @include large{
+            margin: 0 auto;
+            max-width: 60rem;
+          }
+        }
+      }
+
+    }
+    .main-content-items-2{
+      display: flex;
+      justify-content: space-between;
+      @include small{
+        flex-direction: column;
+        text-align: center;
+      }
+      @include medium{
+        flex-direction: column;
+        text-align: center;
+      }
+      @include large{
+        flex-direction: column;
+        text-align: center;
+      }
+      .main-content-items-img-2{
+        width: 100%;
+        max-width: 66.5rem;
+        @include small{
+          margin: 0 auto;
+        }
+        @include medium{
+          margin: 0 auto;
+        }
+        @include large{
+          margin: 0 auto;
+        }
+        
+      } 
+      .main-content-items-text-2{
+        width: 100%;
+        max-width: 42rem;
+        margin-top: 3.6rem;
+        @include small{
+          margin: 0 auto;
+        }
+        @include medium{
+          margin: 0 auto;
+        }
+        @include large{
+          margin: 0 auto;
+          max-width: 60rem;
+        }
+        h2{
+          font-size: $font-size-titles;
+          font-weight: 700;
+          color: $color-text-titles;
+        }
+        p{
+          font-size: $font-size-content;
+          font-weight: 100;
+          color: $color-text-1;
+          padding: 3.1rem 0 0;
+          max-width: 36.2rem;
+          @include small{
+            margin: 0 auto;
+          }
+          @include medium{
+            margin: 0 auto;
+          }
+          @include large{
+            margin: 0 auto;
+            max-width: 60rem;
+          }
+        }
+      }
+
+    }
+  }
+
+  .main-customer{
+    background-image: url(../images/Rectangle\ 13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    .main-customer-title{
+      text-align: center;
+      h2{
+        font-size: $font-size-titles;
+        font-weight: 700;
+        color: $color-text-2;
+        padding-top: 6.4rem ;
+      }
+    }
+    .main-customer-content{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 6.6rem 0 8rem;
+      @include small{
+        flex-direction: column;
+        text-align: center;
+      }
+      @include medium{
+        flex-direction: column;
+        text-align: center;
+      }
+      @include large{
+        flex-direction: column;
+        text-align: center;
+      }
+      .main-customer-content-user{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 35.7rem;
+        @include small{
+          flex-direction: column;
+          text-align: center;
+          div{
+            h3{
+              padding: 1rem 0 .5rem;
+            }
+            p{
+              padding: 0 0 2rem;
+            }
+          }
+        }
+        @include medium{
+          margin: 0 auto 4rem;
+        }
+        @include large{
+          margin: 0 auto 4rem;
+        }
+        img{
+          width: 100%;
+          max-width: 14.1rem;
+        }
+        div{
+          h3{
+            font-size: 2.2rem;
+            font-weight: 500;
+            color: $color-text-2;
+          }
+          p{
+            font-size: $font-size-content-content;
+            font-weight: 100;
+            color: $color-text-2;
+          }
+        }
+      }
+
+      p{
+        width: 100%;
+        max-width: 42rem;
+        font-size: $font-size-content;
+        font-weight: 100;
+        color: $color-text-2;
+        @include large{
+          max-width: 60rem;
+        }
+      }
+
+    }
+
+  }
+
+  .main-customer-imgSlides{
+    width: 100%;
+    max-width: 33.6rem;
+    margin: 4.2rem auto;
+    @include small {
+      max-width: 20rem;
+    }
+  }
+
+  .main-article{
+    margin: 20.6rem auto 0;
+    .main-article-title{
+      text-align: center;
+      h2{
+        font-size: $font-size-titles;
+        font-weight: 700;
+        color: $color-text-titles;
+      }
+    }
+
+    .main-article-cards{
+      display: flex;
+      justify-content: space-between;
+      margin: 8rem auto 4rem;
+      width: 100%;
+      max-width: 112rem;  
+      flex-wrap: wrap;
+      .main-article-cards-item{
+        background-color: white;
+        max-width: 35rem;
+        height: 51.2rem;
+        border-radius: 2rem;
+        box-shadow:30px 30px 50px rgb(192 192 192 / 20%);
+        margin: 1.5rem auto;
+        img{
+          width: 100%;
+          max-width: 35rem;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+        }
+        div{
+          padding: 2.5rem 3.5rem;
+          h3{
+            font-size: $font-size-header-text;
+            font-weight: 700;
+            color: $color-text-titles;
+          }
+          p{
+            font-size: $font-size-content-content;
+            font-weight: 100;
+            color: $color-text-1;
+            padding: 1.2rem 0 2.5rem;
+          }
+          .main-article-button{
+            background: none;
+            border: none;
+            font-size: $font-size-content;
+            color: $primary-color;
+            padding: 0;
+            .main-article-button-img{
+              width: 100%;
+              max-width: 1.5rem;
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+}

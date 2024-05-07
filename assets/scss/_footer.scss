@@ -1,0 +1,81 @@
+@use "./medias.scss";
+
+
+footer{
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 12rem 0;
+    @include small {
+      flex-direction: column;
+      text-align: center;
+    }
+    @include medium {
+      flex-direction: column;
+      text-align: center;
+    }
+    @include large {
+      gap: 3rem;
+    }
+    .footer-content-text{
+
+      @include medium {
+        margin-top: 5rem;
+        order: 1;
+      }
+      .footer-img{
+        width: 100%;
+        max-width: 16rem;
+      }
+      p{
+        padding: 1.7rem 0 3.1rem;
+        width: 100%;
+        max-width: 39.1rem;
+        @include medium{
+          margin: 0 auto;
+        }
+      }
+      p,span{
+        font-size: $font-size-content;
+        font-weight: 100;
+        color: $color-text-2;
+      }
+    }
+
+    .footer-content-links{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 63.4rem;
+      @include small {
+        flex-direction: column;
+        text-align: center;
+        margin: 4rem auto;
+      }
+      .footer-content-links-items{
+        h4{
+          font-size: $font-size-header-text;
+          font-weight: 500;
+          color: $color-text-2;
+          
+        }
+        ul{
+          padding: 2.5rem 0;
+          li{
+            padding: .7rem 0;
+            a{
+              font-size: $font-size-content;
+              font-weight: 100;
+              color: $color-text-2;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+}
