@@ -8,6 +8,12 @@ header{
     padding: 5rem 0;
     @include small{
       justify-content: center;
+      margin: 0 auto;
+    }
+    @include medium{
+      flex-direction: column;
+      gap: 3rem;
+      margin: 0 auto;
     }
     .header-nav-img{
       width: 100%;
@@ -17,6 +23,15 @@ header{
       @include small{
         display: none;
       }
+      @include medium{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      @include large{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
       display: flex;
       gap: 1rem;
       li a{
@@ -38,7 +53,12 @@ header{
     justify-content: space-between;
     @include small{
       flex-direction: column;
-      justify-content: center;
+    }
+    @include medium{
+      flex-direction: column;
+    }
+    @include large{
+      flex-direction: column;
     }
     .header-content-text{
       width: 100%;
@@ -46,6 +66,15 @@ header{
       margin: 10.5rem 0;
       @include small{
         text-align: center;
+        margin: 0 auto 4rem;
+      }
+      @include medium{
+        text-align: center;
+        margin:0 auto 4rem;
+      }
+      @include large{
+        text-align: center;
+        margin:0 auto 4rem;
       }
       h1{
         font-size: $font-size-header-titles;
@@ -73,6 +102,15 @@ header{
     .header-content-img{
       width: 100%;
       max-width: 69.3rem;
+      @include small{
+        margin: 0 auto;
+      }
+      @include medium{
+        margin:0 auto;
+      }
+      @include large{
+        margin:0 auto;
+      }
     }
   }
 

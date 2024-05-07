@@ -49,12 +49,9 @@ main{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      padding: 3rem 0;
-      @include small {
-        justify-content: center;
-      }
+      padding: 3rem 0;  
       .main-services-cards-item{
-        margin: 2rem 0;
+        margin: 2rem auto;
         padding: 4rem;
         background-color: white;
         max-width: 35rem;
@@ -64,6 +61,7 @@ main{
         @include small{
           text-align: center;
         }
+        
         img{
           max-width: 100%;
         }
@@ -92,14 +90,43 @@ main{
         flex-direction: column;
         text-align: center;
       }
+      @include medium{
+        flex-direction: column;
+        text-align: center;   
+      }
+      @include large{
+        flex-direction: column;
+        text-align: center;   
+      }
+      @include x-large{
+        gap: 6rem;  
+      }
       .main-content-items-img-1{
         width: 100%;
         max-width: 65rem;
+        @include small{
+          margin: 0 auto;
+        }
+        @include medium{
+          margin: 0 auto;
+        }
+        @include large{
+          margin: 0 auto;
+        }
       } 
       .main-content-items-text-1{
         width: 100%;
         max-width: 48.6rem;
         margin-top: 6rem;
+        @include small{
+          margin: 0 auto;
+        }
+        @include medium{
+          margin: 0 auto;
+        }
+        @include large{
+          margin: 0 auto;
+        }
         h2{
           font-size: $font-size-titles;
           font-weight: 700;
@@ -111,6 +138,15 @@ main{
           color: $color-text-1;
           padding: 3.1rem 0 0;
           max-width: 38.8rem;
+          @include small{
+            margin: 0 auto;
+          }
+          @include medium{
+            margin: 0 auto;
+          }
+          @include large{
+            margin: 0 auto;
+          }
         }
       }
 
@@ -122,15 +158,41 @@ main{
         flex-direction: column;
         text-align: center;
       }
+      @include medium{
+        flex-direction: column;
+        text-align: center;
+      }
+      @include large{
+        flex-direction: column;
+        text-align: center;
+      }
       .main-content-items-img-2{
         width: 100%;
         max-width: 66.5rem;
+        @include small{
+          margin: 0 auto;
+        }
+        @include medium{
+          margin: 0 auto;
+        }
+        @include large{
+          margin: 0 auto;
+        }
         
       } 
       .main-content-items-text-2{
         width: 100%;
         max-width: 42rem;
         margin-top: 3.6rem;
+        @include small{
+          margin: 0 auto;
+        }
+        @include medium{
+          margin: 0 auto;
+        }
+        @include large{
+          margin: 0 auto;
+        }
         h2{
           font-size: $font-size-titles;
           font-weight: 700;
@@ -142,6 +204,15 @@ main{
           color: $color-text-1;
           padding: 3.1rem 0 0;
           max-width: 36.2rem;
+          @include small{
+            margin: 0 auto;
+          }
+          @include medium{
+            margin: 0 auto;
+          }
+          @include large{
+            margin: 0 auto;
+          }
         }
       }
 
@@ -173,6 +244,14 @@ main{
         flex-direction: column;
         text-align: center;
       }
+      @include medium{
+        flex-direction: column;
+        text-align: center;
+      }
+      @include large{
+        flex-direction: column;
+        text-align: center;
+      }
       .main-customer-content-user{
         display: flex;
         align-items: center;
@@ -190,6 +269,12 @@ main{
               padding: 0 0 2rem;
             }
           }
+        }
+        @include medium{
+          margin: 0 auto 4rem;
+        }
+        @include large{
+          margin: 0 auto 4rem;
         }
         img{
           width: 100%;
@@ -246,21 +331,15 @@ main{
       justify-content: space-between;
       margin: 8rem auto 4rem;
       width: 100%;
-      max-width: 112rem;
-      @include small {
-        flex-direction: column;
-      }
-    
+      max-width: 112rem;  
+      flex-wrap: wrap;
       .main-article-cards-item{
         background-color: white;
         max-width: 35rem;
         height: 51.2rem;
         border-radius: 2rem;
         box-shadow:30px 30px 50px rgb(192 192 192 / 20%);
-        @include small {
-          margin: 1.5rem auto;
-          text-align: center;
-        }
+        margin: 1.5rem auto;
         img{
           width: 100%;
           max-width: 35rem;

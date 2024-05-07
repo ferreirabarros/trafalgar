@@ -14,8 +14,19 @@ footer{
       flex-direction: column;
       text-align: center;
     }
+    @include medium {
+      flex-direction: column;
+      text-align: center;
+    }
+    @include large {
+      gap: 3rem;
+    }
     .footer-content-text{
-      
+
+      @include medium {
+        margin-top: 5rem;
+        order: 1;
+      }
       .footer-img{
         width: 100%;
         max-width: 16rem;
@@ -24,6 +35,9 @@ footer{
         padding: 1.7rem 0 3.1rem;
         width: 100%;
         max-width: 39.1rem;
+        @include medium{
+          margin: 0 auto;
+        }
       }
       p,span{
         font-size: $font-size-content;
